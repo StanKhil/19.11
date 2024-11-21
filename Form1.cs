@@ -5,7 +5,7 @@ namespace _19._11
         public Form1()
         {
             InitializeComponent();
-            this.Paint += new PaintEventHandler(Form1_Paint); // Привязка события Paint
+            this.Paint += new PaintEventHandler(Form1_Paint);
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
